@@ -1,7 +1,7 @@
 # FileMonitor
 代码审计辅助工具（文件监控）
 
-## 使用：
+# 使用：
 
 ### 环境：
 测试环境为MacOS 10.14 
@@ -28,7 +28,7 @@ cd FileMonitor
 python fileMonitor.py
 ```
 
-## 功能
+# 功能
 
 * 排除不需要监控的文件目录(如测试基于thinkphp开发的CMS时可排除runtime目录)
 
