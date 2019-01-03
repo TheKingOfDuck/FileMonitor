@@ -1,13 +1,13 @@
 # FileMonitor
 代码审计辅助工具（文件监控）
 
-##使用：
+## 使用：
 
-###环境：
+### 环境：
 测试环境为MacOS 10.14 
 Python2 与Python3均可运行 如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)
 
-###依赖：
+### 依赖：
 
 
 > [watchdog](https://pypi.org/project/watchdog/)
@@ -20,7 +20,7 @@ pip install watchdog
 easy_install watchdog
 ```
 
-###运行：
+### 运行：
 
 ```
 git clone https://github.com/TheKingOfDuck/FileMonitor.git
@@ -28,7 +28,7 @@ cd FileMonitor
 python fileMonitor.py
 ```
 
-##功能
+## 功能
 
 * 排除不需要监控的文件目录(如测试基于thinkphp开发的CMS时可排除runtime目录)
 
@@ -37,6 +37,6 @@ python fileMonitor.py
 ![screenshot](https://github.com/TheKingOfDuck/FileMonitor/blob/master/screenshot.png)
 
 
-##注意：所输入的路径均为绝对路径。
+## 注意：所输入的路径均为绝对路径。
 
 
