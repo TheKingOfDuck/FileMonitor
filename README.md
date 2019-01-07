@@ -36,6 +36,10 @@ python fileMonitor.py
 
 ![screenshot](https://github.com/TheKingOfDuck/FileMonitor/blob/master/screenshot.png)
 
+应用场景：https://xz.aliyun.com/t/3767
+        https://xz.aliyun.com/t/3788
+        
+
 
 ## 注意：所输入的路径均为绝对路径。
 
