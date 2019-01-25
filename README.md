@@ -7,9 +7,10 @@
 # 使用：
 
 ### 环境：
-测试环境为MacOS 10.14 
-Python2 与Python3均可运行
+MacOS 10.14  Python2/3环境运行通过
+
 windows 7 Python2.7环境运行通过
+
 如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)
 
 ### 依赖：
