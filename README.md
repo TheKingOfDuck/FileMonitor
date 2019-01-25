@@ -1,3 +1,6 @@
+[![PyPI](https://img.shields.io/badge/Python-All-blue.svg)]()
+[![Build](https://img.shields.io/badge/Supported_OS-All-orange.svg)]()
+
 # FileMonitor
 代码审计辅助工具（文件监控）
 
@@ -5,7 +8,9 @@
 
 ### 环境：
 测试环境为MacOS 10.14 
-Python2 与Python3均可运行 如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)
+Python2 与Python3均可运行
+windows 7 Python2.7环境运行通过
+如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)
 
 ### 依赖：
 
@@ -16,7 +21,6 @@ Python2 与Python3均可运行 如有问题或修改意见 请点击===>[问题�
 
 ```
 pip install watchdog
-
 easy_install watchdog
 ```
 
