@@ -33,6 +33,15 @@ cd FileMonitor
 python fileMonitor.py
 ```
 
+MacOS可pip直接安装：
+
+```
+pip install filemon
+
+filemon
+```
+
+
 # 功能
 
 * 排除不需要监控的文件目录(如测试基于thinkphp开发的CMS时可排除runtime目录)
