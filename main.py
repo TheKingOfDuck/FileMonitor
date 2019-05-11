@@ -53,6 +53,13 @@ def help():
     By CoolCat
       """)
 
+def getDir():
+    try:
+        dir = str(raw_input(time.strftime('[%H:%M:%S]:') + "Please enter a directory:"))
+    except:
+        dir = str(input(time.strftime('[%H:%M:%S]:') + "Please enter a directory:"))
+        pass
+    return dir
 
 if __name__ == '__main__':
 
@@ -63,7 +70,11 @@ if __name__ == '__main__':
     except:
         dir = str(input(time.strftime('[%H:%M:%S]:') + "Please enter a directory:"))
         pass
-    #
+
+
+
+
+
     # dir = "../Aliyun/"
 
     print(time.strftime('[%H:%M:%S]:') + "FileMonitor is running...")
@@ -76,19 +87,29 @@ if __name__ == '__main__':
         #print(len(a))
         b = monitor(dir)
         #print(len(b))
-        if a > b:
+        if len(a) > len(b):
+            c = list(set(a).difference(set(b)))
+            try:
+                # print(len(a))
+                # print(len(b))
+                # print(len(c))
+                print(time.strftime('[%H:%M:%S]:') + "删除了" + str(c[-1]))
+                # a = b
+            except:
+                pass
+
+        elif len(b) > len(a):
             c = list(set(b).difference(set(a)))
             try:
                 print(time.strftime('[%H:%M:%S]:') + "新建了" + str(c[-1]))
+                # a = b
             except:
                 pass
-        elif b > a:
-            c = list(set(a).difference(set(b)))
-            try:
-                print(time.strftime('[%H:%M:%S]:') + "删除了" + str(c[-1]))
-            except:
-                pass
+
         elif len(a) == len(b):
+            # print(len(a))
+            # print(len(b))
+            # print(len(c))
             aList = []
             for pathName in a:
                 hash = calcMD5(pathName)
@@ -101,15 +122,17 @@ if __name__ == '__main__':
                 hash = calcMD5(pathName)
                 bList.append(hash)
             #print(bList)
-            a = b
 
             cList = list(set(aList).difference(set(bList)))
             if len(cList) != 0:
                 try:
+                    # print(len(aList))
+                    # print(len(bList))
+                    # print(len(cList))
                     print(time.strftime('[%H:%M:%S]:') + cList[-1])
                 except:
                     pass
-                a = b
+                # a = b
             else:
                 pass
             a = b
