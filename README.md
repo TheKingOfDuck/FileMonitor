@@ -4,6 +4,11 @@
 # FileMonitor
 代码审计辅助工具（文件监控）
 
+# 更新：
+
+2019-05-11：
+  修复bug 新增无需第三方模块的版本以及php版本。
+
 # 使用：
 
 ### 环境：
@@ -39,6 +44,19 @@ MacOS可pip直接安装：
 pip install filemon
 
 filemon
+```
+
+无需依赖版：
+
+```
+python main.py
+```
+(路径可为相对路径)
+
+php版本：
+
+```
+php fileMonitor.php --dir ./
 ```
 
 
