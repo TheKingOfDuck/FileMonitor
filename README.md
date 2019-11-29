@@ -41,7 +41,7 @@ python fileMonitor.py
 MacOS可pip直接安装：
 
 ```
-pip install filemon
+sudo python2 -m pip install filemon
 
 filemon
 ```
