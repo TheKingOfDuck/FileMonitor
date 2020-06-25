@@ -6,29 +6,33 @@
 
 # 更新：
 
+**感谢[moyuwa](https://github.com/moyuwa)反馈的Bug，如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)**
+
+2020-06-25：
+  * 并优化了二进制文件，使其兼容所有unix的系统(macOS,linux,ubantu,centos,etc)。
+  * 新增参数模式，可执行`filemon -h`相关参数说明。其中-p参数是监控的路径，为必须项目，其他参数可选。
+  * 根据[moyuwa](https://github.com/moyuwa)反的[issue](https://github.com/TheKingOfDuck/FileMonitor/issues/2)修复了不设置监控路径时所有操作都不显示的bug,并在其修改加强的版本[FileMonitorPlus](https://github.com/moyuwa/FileMonitorPlus)上修了文件移动显示错误,是否显示文件夹设置无效这两bug。
+
 2019-05-11：
-  修复bug 新增无需第三方模块的版本以及php版本。
+  * 修复bug 新增无需第三方模块的版本以及php版本。
 
 # 使用：
+
+所有unix相关的系统可使用pip一键安装:
+
+```
+python3 -m pip install filemon==1.1 -i https://pypi.python.org/simple/
+filemon -h
+```
 
 ### 环境：
 MacOS 10.14  Python2/3环境运行通过
 
 windows 7 Python2.7环境运行通过
 
-如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)
-
 ### 依赖：
 
-
 > [watchdog](https://pypi.org/project/watchdog/)
-
-可执行以下命令尝试安装
-
-```
-pip install watchdog
-easy_install watchdog
-```
 
 ### 运行：
 
@@ -36,14 +40,6 @@ easy_install watchdog
 git clone https://github.com/TheKingOfDuck/FileMonitor.git
 cd FileMonitor
 python fileMonitor.py
-```
-
-MacOS可pip直接安装：
-
-```
-sudo python2 -m pip install filemon
-
-filemon
 ```
 
 无需依赖版：
