@@ -12,7 +12,7 @@
 **感谢[moyuwa](https://github.com/moyuwa)反馈的Bug，如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)**
 
 2024-12-01：
-  * fixed bug
+  * 适配新版watchdog
 
 2020-06-25：
   * 优化二进制文件，使其兼容所有unix的系统(macOS,linux,ubantu,centos,etc)。
@@ -27,7 +27,7 @@
 所有unix相关的系统可使用pip一键安装:
 
 ```
-python3 -m pip install filemon==1.1 -i https://pypi.python.org/simple/
+python3 -m pip install filemon==1.2 -i https://pypi.python.org/simple/
 filemon -h
 ```
 
