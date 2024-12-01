@@ -131,7 +131,7 @@ if __name__ == "__main__":
         event_handler.unspyDirs = unspyDir.split(',')
 
     observer = Observer()
-    observer.schedule(event_handler, spyDir, True)
+    observer.schedule(event_handler, spyDir)
     observer.start()
 
     try:

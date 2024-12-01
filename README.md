@@ -8,7 +8,11 @@
 
 # 更新：
 
+
 **感谢[moyuwa](https://github.com/moyuwa)反馈的Bug，如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)**
+
+2024-12-01：
+  * fixed bug
 
 2020-06-25：
   * 优化二进制文件，使其兼容所有unix的系统(macOS,linux,ubantu,centos,etc)。
