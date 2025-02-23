@@ -4,14 +4,9 @@
 # FileMonitor
 代码审计辅助工具（文件监控）
 
-**优先使用fileMonitor.py 不推荐main.py 这三年前的玩意儿了 总体上都不推荐使用这种方式挖洞 建议看看IAST**
 
-# 更新：
+# pypi
 
-
-**感谢[moyuwa](https://github.com/moyuwa)反馈的Bug，如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)**
-
-upload to pypi
 ```
 python setup.py sdist
 twine upload dist/*
