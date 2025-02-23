@@ -17,23 +17,12 @@ python setup.py sdist
 twine upload dist/*
 ```
 
-2024-12-01：
-  * 适配新版watchdog
-
-2020-06-25：
-  * 优化二进制文件，使其兼容所有unix的系统(macOS,linux,ubantu,centos,etc)。
-  * 新增参数模式，可执行`filemon -h`相关参数说明。其中-p参数是监控的路径，为必须项，其他参数可选。
-  * 根据[moyuwa](https://github.com/moyuwa)反的[issue](https://github.com/TheKingOfDuck/FileMonitor/issues/2)修复了不设置监控路径时所有操作都不显示的bug,并在其修改加强的版本[FileMonitorPlus](https://github.com/moyuwa/FileMonitorPlus)上修了文件移动显示错误,是否显示文件夹设置无效这两bug。
-
-2019-05-11：
-  * 修复bug 新增无需第三方模块的版本以及php版本。
-
 # 使用：
 
 所有unix相关的系统可使用pip一键安装:
 
 ```
-python3 -m pip install filemon==1.2 -i https://pypi.python.org/simple/
+python3 -m pip install filemon==1.3 -i https://pypi.python.org/simple/
 filemon -h
 ```
 
