@@ -11,6 +11,12 @@
 
 **感谢[moyuwa](https://github.com/moyuwa)反馈的Bug，如有问题或修改意见 请点击===>[问题反馈](https://github.com/TheKingOfDuck/FileMonitor/issues)**
 
+upload to pypi
+```
+python setup.py sdist
+twine upload dist/*
+```
+
 2024-12-01：
   * 适配新版watchdog
 
